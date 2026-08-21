@@ -157,7 +157,7 @@ class LanguageManager:
             
             "en": {
                 # 窗口标题
-                "window_title": "Traditional Chinese Medicine Knowledge Graph",
+                "window_title": "KGWorkbench",
                 "add_node_title": "Add Node",
                 "batch_edit_nodes": "Batch Edit Nodes",
                 "batch_edit_relationships": "Batch Edit Relationships",
@@ -234,7 +234,7 @@ class LanguageManager:
                 "view_nodes": "🔍 View {type} nodes (click to expand/collapse)",
                 "more_nodes": "... {count} more nodes",
                 "more_relationships": "📄 {count} more relationships...",
-                "knowledge_graph_title": "🏥 TCM Knowledge Graph - Detailed Data View",
+                "knowledge_graph_title": "🏥 KGWorkbench - Detailed Data View",
                 "knowledge_graph_subtitle": "Complete knowledge graph data analysis and browsing",
                 
                 # 错误信息
