@@ -926,7 +926,7 @@ class MainWindow(QMainWindow):
         """检查图形渲染结果"""
         try:
             self.graph_view.page().runJavaScript(
-                "typeof vis !== 'undefined' && document.querySelector('#mynetworkid') ? 'success' : 'failed'",
+                "typeof vis !== 'undefined' && document.querySelector('#mynetwork') && typeof network !== 'undefined' && network !== null ? 'success' : 'failed'",
                 self.on_graph_render_check
             )
         except Exception as e:
