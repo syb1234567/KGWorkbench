@@ -1090,7 +1090,7 @@ class MainWindow(QMainWindow):
             <style>
                 body {{ font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background: #f8f9fa; }}
                 .container {{ max-width: 100%; }}
-                .header {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; margin: -20px -20px 25px -20px; border-radius: 0 0 15px 15px; }}
+                .header {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #000000; padding: 25px; margin: -20px -20px 25px -20px; border-radius: 0 0 15px 15px; }}
                 .stats-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; }}
                 .stat-card {{ background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-left: 5px solid #667eea; }}
                 .section {{ background: white; padding: 20px; margin: 15px 0; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }}
